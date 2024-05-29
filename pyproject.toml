@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fastpet"
+version = "0.1.0"
+description = "My custom task tracker. JFF"
+authors = ["Alexandr Abramov <alexandr.abramovv@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11.0, <3.12.0"
+fastapi = {extras = ["all"], version = "^0.111.0"}
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.7.1"
+
+[build-system]
+requires = ["poetry-core>=1.9"]
+build-backend = "poetry.core.masonry.api"

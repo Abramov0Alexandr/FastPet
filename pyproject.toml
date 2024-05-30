@@ -12,6 +12,8 @@ fastapi = {extras = ["all"], version = "^0.111.0"}
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.7.1"
+alembic = "^1.13.1"
+asyncpg = "^0.29.0"
 
 [build-system]
 requires = ["poetry-core>=1.9"]

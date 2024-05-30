@@ -1,2 +1,2 @@
 # FastPet
-"My custom task tracker. JFF
+My custom task tracker. JFF
